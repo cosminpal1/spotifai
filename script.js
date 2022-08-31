@@ -29,10 +29,7 @@ window.onload=function(){
     const songsWrapper= document.getElementById("songs-wrapper");
     songsWrapper.innerHTML="";
     for(let i=0;i<songlist.length;i++)
-     songsWrapper.innerHTML+=melodyComponent(i+1,songlist[
-
-        
-     ])
+     songsWrapper.innerHTML+=melodyComponent(i+1,songlist[i])
 }
 const melodyComponent= function(index,songInfo){
     return` <div class="melody">
